@@ -90,6 +90,7 @@ const DateRangePicker = ({
 
     if (!firstDate) {
       setFirstDate(date);
+      returnSelectedRange(date, date);
     } else {
       if (!secondDate) {
         setSecondDate(date);
